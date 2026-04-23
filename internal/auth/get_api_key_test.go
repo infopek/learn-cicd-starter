@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"testing"
 	"net/http"
 	"reflect"
+	"testing"
 )
 
 func TestGetAPIKey(t *testing.T) {
@@ -18,8 +18,8 @@ func TestGetAPIKey(t *testing.T) {
 		isError bool
 		want    string
 	}{
-		"successful apikey": { input: validHeader, isError: false, want: "v89hp98hj23pj"},
-		"invalid apikey": { input: invalidHeader1, isError: true, want: ""},
+		"successful apikey": {input: validHeader, isError: false, want: "v89hp98hj23pj"},
+		"invalid apikey":    {input: invalidHeader1, isError: true, want: ""},
 	}
 
 	for name, tc := range tests {
