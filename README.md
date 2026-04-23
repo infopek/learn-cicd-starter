@@ -1,4 +1,4 @@
-![test_badge](https://github.com/infopek/learn-cid-starter/actions/workflows/ci/badge.svg)
+![test_badge](https://github.com/infopek/learn-cid-starter/actions/workflows/ci.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
